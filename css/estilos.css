@@ -1,0 +1,92 @@
+/*Selector universal */
+
+ *{
+
+    padding: 0 auto;
+    margin: 0 auto;
+ }
+
+ /*Selector ID */
+
+ #contenedor {
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+ }
+
+ #encabezado {
+    
+    height: 15%;
+    background-color: rgb(21, 207, 157);
+    margin: 1em;
+ }
+
+ #menu {
+    height: 5%;
+    background-color: rgb(137, 159, 223);
+    margin: 1em;
+ }
+
+ #contenido {
+    height: 70%;
+    width: 61%;
+    background-color: white;
+    margin: 0.5em;
+    float: left;
+
+ }
+
+ #fuerasSeccion {
+    height: 70%;
+    width: 36%;
+    background-color: rgb(186, 247, 209);float: right;
+    margin: 0.5em;
+
+ }
+ #pie {
+    height: 5%;
+    background-color: rgb(154, 154, 154);
+    border-radius: 1em;
+    margin: 1.5em;
+    
+ }
+
+ /*Selector de clase */
+
+ .texto{
+    text-align: justify;
+    font-family: tahoma;
+    font-size: 12;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 10px;
+ }
+ .encabezado_articulo {
+    text-align: center;
+    background: #333;
+    color: white;
+    margin: auto 2em;
+ }
+
+ .imagenes {
+    display:block ;
+    border: 1px solid #ddd;
+    margin-left: 4%;
+    border-radius: 4px;
+    width: 150px;
+ }
+
+/* Selector de etiquet*/
+
+ul {
+
+   text-align:left;
+}
+
+li{
+   display: inline;
+   padding-left: 6px;
+   padding-right: 6px;
+   text-align: center;
+}
+

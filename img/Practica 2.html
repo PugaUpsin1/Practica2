@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/html/Practica2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    
+<link rel="stylesheet" href="./Practica 2_files/estilos.css"></head>
+<body><div id="contenedor">
+    
+        <div id="encabezado">
+            <header>
+                <h1>Encabezado</h1>
+
+            </header>
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/html/www.tecnofull.com/Inicio">Inicio</a></li>
+                    <li><a href="http://127.0.0.1:5500/html/www.tecnofull.com/Noticias">Noticias</a></li>
+                    <li><a href="http://127.0.0.1:5500/html/www.tecnofull.com/Imagenes">Imagenes</a></li>
+                    <li><a href="http://127.0.0.1:5500/html/www.tecnofull.com/Foro">Foro</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="contenido">
+            <section>
+                <article>
+                    <h3 class="encabezado_articulo">Troyano</h3>
+                    <p class="texto">
+                        Se trata de un tipo de malware también conocido como caballo de Troya por
+                         el relato histórico. Cuando el vientre del caballo se abrió por la noche, 
+                         ya era demasiado tarde. Los griegos habían logrado capturar la ciudad de 
+                         Troya después de un extenso asedio y, con ello, poner fin a la Guerra de Troya. 
+                         Miles de años más tarde, el mito del caballo de Troya sigue vivo, aunque con una 
+                         connotación menos halagadora.</p>
+
+                        <figure>
+                             <img class="imagenes" src="./Practica 2_files/Troyano.jpeg.jpeg" alt="Imagenes Virus">
+                        </figure>
+                        <time datetime="23/09/2022"></time><small style="display:block; margin-left:3em;">Fue publicado el 23 de Septiembre del 2022 por Issac Puga</small>
+                </article>
+
+                <article>
+                    <h3 class="encabezado_articulo">Ransomware</h3>
+                    <p class="texto">Como es bien sabido, el universo de la internet está plagado de peligros virtuales que 
+                        suele provocar daños muy reales. Virus informáticos, phising, netbots, robo de identidad o denegación 
+                        de servicio, son sólo algunos ejemplos de amenazas latentes. Sin embargo, quizá una de las más deleznables 
+                        sea el ransomware (relativo al rescate). Este es un tipo de malware que, una vez instalado en la computadora,
+                         despliega un mensaje de alguna agencia federal (como el FBI o la policía federal) señalando una violación a 
+                         la ley por lo que el equipo quedará bloqueado a menos que pague una multa; o quizá muestra un pop-up indicando 
+                         que los archivos se encriptarán permanentemente si no se paga algún rescate por ellos. Lo anterior significa simplemente 
+                         que la información del usuario ha quedado secuestrada y para liberarla, deberá cubrir alguna suma de dinero, en algunos 
+                         casos mediante moneda virtual llamada Bitcoin o por transferencia electrónica y que generalmente fluctúa entre los 100 y 
+                         300 dólares. </p>
+                         <figure>
+                            <img class="imagenes" src="./Practica 2_files/ransomware.png" alt="Imagenes Virus">
+                        </figure>
+                        <time datetime="23/09/2022"></time><small style="display:block; margin-left:3em;">Fue publicado el 23 de Septiembre del 2022 por Issac Puga</small>
+                </article>
+            </section>
+        </div>
+        <div id="fuerasSeccion">
+            <aside>
+                <h3>Fuera de la Seccion</h3>
+
+            </aside>
+        </div>
+        </div>
+        <div id="pie">
+            <footer>
+                <h4>Pie de pagina</h4>
+            </footer>
+        </div>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
