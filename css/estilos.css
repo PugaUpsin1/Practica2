@@ -2,34 +2,35 @@
 
  *{
 
-    padding: 0 auto;
-    margin: 0 auto;
+    padding: 0 ;
+    margin: 0 ;
  }
 
  /*Selector ID */
 
  #contenedor {
-    width: 1200px;
+    width: 1400px;
     height: 1000px;
     background-color: rgb(255, 255, 255);
  }
 
  #encabezado {
     
-    height: 15%;
+    height: 10%;
     background-color: rgb(21, 207, 157);
-    margin: 1em;
+    margin: 0em;
  }
 
+
  #menu {
-    height: 5%;
+    height: 10%;
     background-color: rgb(137, 159, 223);
-    margin: 1em;
+    margin: 0em;
  }
 
  #contenido {
     height: 70%;
-    width: 61%;
+    width: 77%;
     background-color: white;
     margin: 0.5em;
     float: left;
@@ -38,9 +39,10 @@
 
  #fuerasSeccion {
     height: 70%;
-    width: 36%;
+    width: 20%;
     background-color: rgb(186, 247, 209);float: right;
     margin: 0.5em;
+    border-radius: 4px;
 
  }
  #pie {
@@ -62,18 +64,21 @@
     padding-top: 10px;
  }
  .encabezado_articulo {
-    text-align: center;
-    background: #333;
-    color: white;
-    margin: auto 2em;
+    text-align: left;
+    background: rgb(187, 202, 252);
+    color: rgb(0, 0, 0);
+    margin: auto 1em;
+    padding: 10px;
+    font-family: Tahoma;
  }
 
  .imagenes {
     display:block ;
     border: 1px solid #ddd;
-    margin-left: 4%;
-    border-radius: 4px;
-    width: 150px;
+    margin-left: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    width: 300px;
  }
 
 /* Selector de etiquet*/
@@ -83,6 +88,7 @@ ul {
    text-align:left;
 }
 
+
 li{
    display: inline;
    padding-left: 6px;
@@ -90,3 +96,44 @@ li{
    text-align: center;
 }
 
+a{
+   text-decoration: none;
+   color: black;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center;
+   background-color: rgb(131, 160, 255);
+   padding: 10px;
+   margin: 1em;
+   border-radius: 10px;
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+   
+}
+
+.logo img {
+   height: 50px;
+   border-radius: 100px;
+   margin-right: 10px;
+}
+
+.body {
+   font-family:  sans-serif;
+   margin: 0;
+}
+nav a{
+   font-weight: 600;
+   padding-right: 10px;
+   font-family:  sans-serif;
+   font-size: 20px;
+}
+
+nav a:hover{
+   color: white;
+}
